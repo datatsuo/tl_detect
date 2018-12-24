@@ -111,6 +111,13 @@ download some models after training:
   - batch size 24, number of steps 12000
   - data for training: v2 sim dataset + v3 sim dataset with 0.8:0.2 split
 
+- [trained_model8](https://drive.google.com/open?id=1Wx2m--evijNHwHeuoic3o5reg8tKHV92)
+  - pre-trained model: `ssd_mobilenet_v1_coco_2017_11_17.tar.gz`
+  - batch size 24, number of steps 20000
+  - data for training: Bosch mini dataset + ROS bag dataset with 0.8:0.2 split
+
+
+
 ### For Training on Local Machine, Outside Udacity Workspace
 
 When working outside the Udacity Workspace for training,
